@@ -2,12 +2,10 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" href="css\s.css">  
+    <link rel="stylesheet" href="css\s.css">
 </head>
 <body class="bod">
-    <header>
-    <?php include'menu.php' ?>  
-    </header>
+<?php include'menu.php' ?>
 <main>
     <section class="our-projects">
         <div class="container-project">
@@ -39,9 +37,9 @@
                     <input type="radio" name="ingresos" value="no">NO<br>
                     </h4>
                     <input class="botons" type="submit" value="ORDENAR">
-                  </form>  
+                  </form>
               </div>
-            </div>    
+            </div>
 <!------------------------------------------------------------>
         <div class="card-testimonio">
           <div class="card-img">
@@ -61,10 +59,10 @@
                     <input type="radio" name="ingresos" value="no">NO<br>
                     </h4>
                     <input class="botons" type="submit" value="ORDENAR">
-                  </form>  
+                  </form>
               </div>
-            </div> 
-           
+            </div>
+
 <!------------------------------------------------------------>
 
       <div class="card-testimonio">
@@ -84,9 +82,9 @@
                     <input type="radio" name="ingresos" value="no">NO<br>
                     </h4>
                     <input class="botons" type="submit" value="ORDENAR">
-                  </form>  
+                  </form>
               </div>
-            </div> 
+            </div>
 <!------------------------------------------------------------>
         <div class="card-testimonio">
             <div class="card-img">
@@ -106,9 +104,9 @@
                     <input type="radio" name="ingresos" value="no">NO<br>
                     </h4>
                     <input class="botons" type="submit" value="ORDENAR">
-                  </form>  
+                  </form>
               </div>
-            </div> 
+            </div>
 <!------------------------------------------------------------>
         <div class="card-testimonio">
             <div class="card-img">
@@ -128,9 +126,9 @@
                     <input type="radio" name="ingresos" value="no">NO<br>
                     </h4>
                     <input class="botons" type="submit" value="ORDENAR">
-                  </form>  
+                  </form>
               </div>
-            </div> 
+            </div>
 <!------------------------------------------------------------>
         <div class="card-testimonio">
             <div class="card-img">
@@ -150,9 +148,9 @@
                     <input type="radio" name="ingresos" value="no">NO<br>
                     </h4>
                     <input class="botons" type="submit" value="ORDENAR">
-                  </form>  
+                  </form>
               </div>
-            </div> 
+            </div>
 <!------------------------------------------------------------>
         <div class="card-testimonio">
             <div class="card-img">
@@ -172,9 +170,9 @@
                     <input type="radio" name="ingresos" value="no">NO<br>
                     </h4>
                     <input class="botons" type="submit" value="ORDENAR">
-                  </form>  
+                  </form>
               </div>
-            </div> 
+            </div>
 <!------------------------------------------------------------>
         <div class="card-testimonio">
             <div class="card-img">
@@ -194,9 +192,9 @@
                     <input type="radio" name="ingresos" value="no">NO<br>
                     </h4>
                     <input class="botons" type="submit" value="ORDENAR">
-                  </form>  
+                  </form>
               </div>
-            </div> 
+            </div>
 <!------------------------------------------------------------>
         <div class="card-testimonio">
             <div class="card-img">
@@ -216,13 +214,13 @@
                     <input type="radio" name="ingresos" value="no">NO<br>
                     </h4>
                     <input class="botons" type="submit" value="ORDENAR">
-                  </form>  
+                  </form>
               </div>
-            </div> 
+            </div>
 
      </div>
    </section>
- </main> 
+ </main>
  <script src="js\main.js"></script>
 </body>
 

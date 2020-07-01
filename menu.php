@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    <link rel="stylesheet" href="css\s.css">  
-</head>
-<body class="bod">
-    <header id="main-header">   
+<header id="main-header">
     <img src="img\logob.png" class="logo">
 
     <nav>
@@ -52,6 +45,3 @@
             </div>
     </header>
  <script src="js\main.js"></script>
-</body>
-
-</html>

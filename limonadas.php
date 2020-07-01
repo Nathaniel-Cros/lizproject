@@ -2,12 +2,10 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" href="css\s.css">  
+    <link rel="stylesheet" href="css\s.css">
 </head>
 <body class="bod">
-    <header>
-    <?php include'menu.php' ?>  
-    </header>
+<?php include'menu.php' ?>
 <main>
 
     <section class="our-projects">
@@ -30,7 +28,7 @@
             <h4>Limonada de sandía y menta</h4>
           </div>
         </div>
-   
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://i.blogs.es/6cc4fd/limonada_americana/1366_2000.jpg" alt="">
@@ -55,7 +53,7 @@
             <h4>Limonada de pepino</h4>
           </div>
       </div>
-      
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://i.blogs.es/446872/limonada-turca-dap/1366_2000.jpg" alt="">
@@ -75,7 +73,7 @@
       </div>
      </div>
    </section>
- </main> 
+ </main>
 <script src="js\main.js"></script>
 </body>
 </html>

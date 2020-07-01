@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>RESTAURANT del Norte</title>
-	<link rel="stylesheet" href="css\estilos.css">	
+	<link rel="stylesheet" href="css\estilos.css">
 </head>
 <body>
-	
+
 	<header>
 		<div class="banner">
 			<img src="img\log.png" onclick="cocteles();">
