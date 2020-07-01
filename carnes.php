@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    <link rel="stylesheet" href="css\s.css">  
-</head>
-<body class="bod">
-<body class="bod">
+<?php include './components/header.php'; ?>
     <header>
-    <?php include'menu.php' ?>  
+    <?php include './components/menu.php' ?>
     </header>
 <main>
     <section class="our-projects">
@@ -30,7 +23,7 @@
             <h4>Tomahawk steak</h4>
           </div>
         </div>
-   
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1200/https://saboryestilo.com.mx/wp-content/uploads/2019/09/T-bone.jpg" alt="">
@@ -55,11 +48,11 @@
             <h4>Porterhouse steak</h4>
           </div>
       </div>
-      
+
      </div>
    </section>
  </main>
  <script src="js\main.js"></script>
- </body> 
+ </body>
 
 </html>

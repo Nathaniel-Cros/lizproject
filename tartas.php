@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    <link rel="stylesheet" href="css\s.css">  
-</head>
-<body class="bod">
-    <header>
-    <?php include'menu.php' ?>  
-    </header>
+<?php include './components/header.php'; ?>
+<header>
+    <?php include './components/menu.php' ?>
+</header>
 <main>
     <section class="our-projects">
         <div class="container-project">
@@ -20,7 +14,7 @@
    <!-- Testimonios -->
    <section class="testimonios">
      <div class="box-testimonio">
-   
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://i.blogs.es/556042/1366_2000/1366_2000.jpg" alt="">
@@ -45,7 +39,7 @@
             <h4>Tartaletas de lima y queso crema</h4>
           </div>
       </div>
-      
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://i.blogs.es/0fce67/1366_2000-5-/1366_2000.jpg" alt="">
@@ -62,7 +56,7 @@
             <h4>Tarta fácil de hojaldre con fresas y almendra</h4>
           </div>
       </div>
-      
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://i.blogs.es/3c519f/1366_2000-7-/1366_2000.jpg" alt="">
@@ -79,7 +73,7 @@
             <h4> Tarta de chocolate</h4>
           </div>
       </div>
-      
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://i.blogs.es/048835/1366_2000-10-/1366_2000.jpg" alt="">
@@ -96,10 +90,10 @@
             <h4>Tarta de queso sin horno</h4>
           </div>
       </div>
-        
+
      </div>
    </section>
- </main> 
+ </main>
 <script src="js\main.js"></script>
 </body>
 </html>

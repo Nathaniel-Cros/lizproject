@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    <link rel="stylesheet" href="css\s.css">  
-</head>
-<body class="bod">
-    <header>
-    <?php include'menu.php' ?>  
-    </header>
+<?php include './components/header.php'; ?>
+<header>
+    <?php include './components/menu.php' ?>
+</header>
 <main>
     <section class="our-projects">
         <div class="container-project">
@@ -29,7 +23,7 @@
             <h4>Espaguetis con crema de limón</h4>
           </div>
         </div>
-   
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="http://cocineraymadre.com/wp-content/uploads/2017/01/6-recetas-de-pasta-f%C3%A1ciles-y-deliciosas-3.jpg" alt="">
@@ -54,7 +48,7 @@
             <h4>Puerco caramelizado a la vietnamita con pasta</h4>
           </div>
       </div>
-      
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=auto,q=80,fit=contain/content/2019/10/25/1572029305115-ecetas-de-pasta-que-enamoraran-a-cualquiera-medium.jpg" alt="">
@@ -89,7 +83,7 @@
       </div>
      </div>
    </section>
- </main> 
+ </main>
 <script src="js\main.js"></script>
 </body>
 </html>

@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    <link rel="stylesheet" href="css\s.css">
-</head>
-<body class="bod">
-<?php include'menu.php' ?>
+<?php include './components/header.php'; ?>
+<header>
+    <?php include './components/menu.php' ?>
+</header>
 <main>
 
     <section class="our-projects">

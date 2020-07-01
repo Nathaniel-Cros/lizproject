@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    <link rel="stylesheet" href="css\s.css">  
-</head>
-<body class="bod">
-    <header>
-    <?php include'menu.php' ?>  
-    </header>
+<?php include './components/header.php'; ?>
+<header>
+    <?php include './components/menu.php' ?>
+</header>
 <main>
 
     <section class="our-projects">
@@ -21,7 +15,7 @@
    <!-- Testimonios -->
    <section class="testimonios">
      <div class="box-testimonio">
-   
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://s2.eestatic.com/2015/05/06/cocinillas/Cocinillas_31256875_116173692_1200x800.jpg" alt="">
@@ -46,7 +40,7 @@
             <h4>Ensalada de mango y frutos secos</h4>
           </div>
       </div>
-      
+
       <div class="card-testimonio">
           <div class="card-img">
             <img src="https://s5.eestatic.com/2015/01/03/cocinillas/Cocinillas_510064_116011658_1024x768.jpg" alt="">
@@ -123,7 +117,7 @@
 
      </div>
    </section>
- </main> 
+ </main>
  <script src="js\main.js"></script>
 </body>
 
