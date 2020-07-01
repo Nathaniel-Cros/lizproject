@@ -1,0 +1,240 @@
+/*----------------------------------------------------------------------------------------------------------logo*/
+.main img{
+
+    max-width: 100%;
+}
+.logo{
+    width: 500px;
+    height: 80px;
+}
+
+/*-------------------------------------------------------------------------------------------letras del navegador
+-------------------------------------------------------------------------comidas, bebidas,postres, llamar al mesero*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    background: #f2f2f2; 
+    font-size: 1em;
+    line-height: 1.5em;
+    
+    padding-top: 80px;
+}
+
+/*-------------------------------------------------------------------------------------------- estilos de navegacion */
+nav {
+    float: right;
+}
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-right: 20px;
+    }
+    
+        nav ul li {
+            display: inline-block;
+            line-height: 80px;
+        }
+            
+            nav ul li a {
+                display: block;
+                padding: 0 10px;
+                text-decoration: none;
+            }
+            
+                nav ul li a:hover {
+                    background: #333;
+                }
+/*---------------------------------------------------------------------------------------------------menu despegable
+--------------------------------------------------------------------------------------carnes, pastas,ensaladas, etc*/
+#subseccion1, #subseccion2, #subseccion3{ 
+    float: right;
+    background-color: black; 
+    font:normal 0.8em arial;  
+    padding: 0 10px ; 
+    display: none;
+    font-size: 1em;
+    line-height: 1.5em;
+} 
+/************-------------------------------CABECERA-------------------------------
+************/
+#main-header {
+    background: black;
+    color: white;
+    height: 80px;
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}   
+#main-header a {
+    color: white;
+}
+
+/*---------------------------------------------------------------------------------------------menu--*/
+:root{
+   --red:#ff2e63;
+   --black:#252a34;
+   --blue:#08d9d6;
+   --white:#eaeaea;
+   --title:35px;
+   --text:19px;
+}
+
+
+
+/** Testimonios **/
+
+.testimonios .testimonios-title{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+}
+.testimonios .testimonios-title h2{
+    font-size: 50px;
+    font-weight: normal;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+.testimonios .testimonios-title hr{
+    width: 60%;
+    height: 2px;
+    margin:auto;
+    background: var(--black);
+}
+.testimonios .box-testimonio{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.testimonios .box-testimonio .card-testimonio{
+    width: 20%;
+    margin: 20px;
+}
+.testimonios .box-testimonio .card-testimonio .card-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.testimonios .box-testimonio .card-testimonio .card-img img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.testimonios .box-testimonio .card-testimonio .testimonio-text{
+    border: 2px solid var(--red);
+    padding:10px;
+    border-radius: 10px;
+    transition: 0s;
+    cursor: pointer;
+}
+.testimonios .box-testimonio .card-testimonio .testimonio-text h4{
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--red);
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 0.1s;
+}
+
+.testimonios .box-testimonio .card-testimonio .testimonio-text:hover{
+    border: 2px solid var(--blue);
+}
+.testimonios .box-testimonio .card-testimonio .testimonio-text:hover h4{
+    color: var(--blue);
+}
+
+@media only screen and (max-width:890px){
+    .testimonios .box-testimonio .card-testimonio .card-img img{width: 200px; height: 200px;}
+    .testimonios .box-testimonio .card-testimonio{width: 100%;}
+    .testimonios .box-testimonio .card-testimonio .testimonio-text h4{font-size: 20px;}
+}
+
+/*------------------------------------------------------------------------------Formulario de desea dividir la cuenta?*/
+/*estilo del form*/
+.form-register {
+  width: 400px;
+  background: #DCDCDC;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: black;
+  box-shadow: 7px 13px 37px #000;
+}
+/*pregunta*/
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/*estilo delos botones delosformularios*/
+.form-register .botons {
+  width: 100%;
+  background: #696969;
+  border: none;
+  padding: 9px;
+  color: white;
+  margin: 10px 2px;
+  font-size: 19px;
+}
+/********************************************/
+/*estatico*/
+.modal{
+    display: none;
+    position: fixed;
+    z-index:1;
+    overflow: auto;
+    left: 0;
+    top:0;
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.452);
+}
+/*--------------------------------------------------------------------------------------------------------*boton para cerrar*/
+/*cerrar form*/
+.close{
+    color: black;
+    font-size:30px;
+    font-weight: bold;
+    
+}
+.close:hover{
+    color:#7f8c8d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/*----------titulos-----*/
+.our-projects .container-project{
+    width: 60%;
+    margin:auto;
+    padding-top: 30px;/*de arriba para abajo*/
+}
+.our-projects .container-project .project-title{
+    border:1px solid black;
+    padding: 8px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.our-projects .container-project .project-title h2{
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+}
+.our-projects .container-project .project-title hr{
+   background: black;
+   width: 50%;
+   height: 1.2px;
+   margin: 5px auto;
+}
