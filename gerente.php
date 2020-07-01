@@ -2,10 +2,10 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" href="css\s.css">  
+    <link rel="stylesheet" href="css\s.css">
 </head>
 <body class="bod">
-    <header id="main-header">   
+    <header id="main-header">
     <img src="img\logob.png" class="logo">
 
     <nav>
@@ -25,6 +25,4 @@
     </nav>
 
     </header>
-<script src="js\main.js"></script>
-</body>
-</html>
+<?php include './components/footer.php'; ?>

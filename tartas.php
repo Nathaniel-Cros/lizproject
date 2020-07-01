@@ -94,6 +94,4 @@
      </div>
    </section>
  </main>
-<script src="js\main.js"></script>
-</body>
-</html>
+<?php include './components/footer.php'; ?>
